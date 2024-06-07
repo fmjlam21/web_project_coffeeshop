@@ -5,4 +5,122 @@
   font-family: "inter", arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  color: #ffffff;
+}
+
+.header {
+  background-image: url(images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #000000;
+  position: absolute;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 103px;
+  height: 39px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.nav__link {
+  display: flex;
+  font-family: "inter, arial";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  gap: 20px;
+  list-style-type: none;
+  padding-right: 80px;
+  padding-top: 30px;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  max-width: 709px;
+  font-family: "inter,arial";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+  padding-left: 80px;
+  padding-top: 183px;
+}
+
+.span-accent {
+  font-family: "noto serif,times new roman";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.description {
+  max-width: 683px;
+  font-family: "noto serif,times new roman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 80px;
+  padding-top: 28px;
+  display: flex;
+  justify-content: end;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  padding-top: 124px;
+  padding-right: 5px;
+  position: relative;
+}
+
+.header__footer {
+  font-family: "inter,arial";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.header__footer-list {
+  list-style-type: none;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  color: #6f6f6f;
+}
+
+.paragraph {
+  padding-right: 80px;
+  padding-bottom: 40px;
+  color: #6f6f6f;
+}
+
+.recipes {
+  background-image: url(images/background_recipes.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #0a2850;
+}
+
+.title__recipes {
 }
