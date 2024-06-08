@@ -47,7 +47,7 @@
   align-items: center;
 }
 
-.title {
+.header__title {
   max-width: 709px;
   font-family: "inter,arial";
   font-style: normal;
@@ -68,7 +68,7 @@
   color: #2f80ed;
 }
 
-.description {
+.header__description {
   max-width: 683px;
   font-family: "noto serif,times new roman";
   font-style: normal;
@@ -108,7 +108,7 @@
   color: #6f6f6f;
 }
 
-.paragraph {
+.header__paragraph {
   padding-right: 80px;
   padding-bottom: 40px;
   color: #6f6f6f;
