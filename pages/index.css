@@ -15,7 +15,8 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  width: 720 x 800px;
+  min-width: 720px;
+  max-width: 800px;
   height: 100vh;
 }
 
