@@ -8,68 +8,58 @@
 }
 
 .header {
-  background-image: url(file:///C:/Users/Fernando%20Martinez/OneDrive/Desktop/web_project_coffeeshop/images/background_header.svg);
+  background-image: url(file:///C:/Users/Fernando%20Martinez/OneDrive/Desktop/web_project_coffeeshop%20-%20copia/images/background_header.svg);
+  background-color: #ffffff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  min-width: 720px;
-  max-width: 800px;
-  height: 100vh;
 }
 
 .nav {
+  position: relative;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.nav__links {
   display: flex;
   justify-content: space-between;
-  font-family: "inter,arial";
+  margin-top: 30px;
+  margin-right: 80px;
+  font-family: "Inter,Arial";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
 }
 
-.nav__logo {
-  position: relative;
-  width: 105px;
-  height: 39px;
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.nav__links {
-  margin-top: 30px;
-  margin-right: 80px;
-  list-style-type: none;
-  display: flex;
-  gap: 20px;
-}
-
 .nav__link {
-  color: #000000;
-  text-decoration: none;
+  gap: 20px;
 }
 
 .header__content {
   position: absolute;
-  display: flex;
 }
 
 .header__title {
   max-width: 709px;
-  padding-top: 183px;
-  padding-left: 80px;
-  font-family: "inter,arial";
+  margin-left: 80px;
+  margin-top: 183px;
+  font-family: "Inter,Arial";
   font-style: normal;
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
-  letter-spacing: 1px;
+  letter-spacing: -1px;
 }
 
-.span-accent {
-  font-family: "noto serif,Times New Roman";
+.span__accent {
+  font-family: "Noto Serif,Times New Roman";
   font-style: italic;
   font-weight: normal;
   font-size: 58px;
@@ -78,10 +68,10 @@
 }
 
 .header__description {
-  max-width: 638px;
-  margin-top: 28px;
+  max-width: 683px;
   margin-left: 80px;
-  font-family: "noto serif,Times New Roman";
+  margin-top: 28px;
+  font-family: "Noto Serif,Time New Roman";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -89,18 +79,16 @@
 }
 
 .header__image {
-  display: flex;
   width: 646px;
   height: 568px;
-  padding-top: 124px;
-  padding-right: 5px;
+  margin-top: 124px;
+  margin-right: 5px;
 }
 
 .header__footer {
-  display: flex;
-  justify-content: space-between;
-  margin-top: auto;
-  font-family: "inter,arial";
+  margin-left: 80px;
+  margin-bottom: 40px;
+  font-family: "Inter,Arial";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -108,71 +96,7 @@
   color: #838383;
 }
 
-.header-list {
-  line-height: 0%;
-  align-items: start;
-  margin-left: 80px;
-  margin-bottom: 40px;
-}
-
-.header__paragraph {
+.paragraph {
   margin-right: 80px;
   margin-bottom: 40px;
-}
-
-.recipes {
-  background-image: url(file:///C:/Users/Fernando%20Martinez/OneDrive/Desktop/web_project_coffeeshop/images/background_recipes.svg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #0a2850;
-  box-sizing: border-box;
-  color: #ffffff;
-}
-
-.recipes__title {
-  max-width: 580px;
-  margin-top: 100px;
-  margin-left: 80px;
-  font-family: "Inter,arial";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-  margin-top: 100px;
-}
-
-.recipes__subtitle {
-  max-width: 438px;
-  font-family: "Noto Serif,times new roman";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  margin-top: 24px;
-  margin-left: 80px;
-}
-
-.recipes__videos {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 80px;
-}
-
-.video-caption {
-  font-family: "Inter,arial";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 215px;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 24px;
-}
-
-.video-item {
-  height: 237px;
-  width: 480px;
 }
