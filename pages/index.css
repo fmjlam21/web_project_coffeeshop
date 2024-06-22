@@ -13,6 +13,11 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 30px 80px 40px;
 }
 
 .nav {
@@ -39,23 +44,13 @@
   font-size: 16px;
   line-height: 20px;
   list-style-type: none;
-}
-
-.nav__link {
-  margin-right: 20px;
-}
-
-.header__content {
-  position: absolute;
-  min-width: 720px;
-  max-width: 800px;
-  width: 100vh;
+  gap: 20px;
 }
 
 .header__title {
   max-width: 709px;
-  margin-left: 80px;
   margin-top: 183px;
+  margin-bottom: 0;
   font-family: "Inter,Arial";
   font-style: normal;
   font-weight: 500;
@@ -64,18 +59,18 @@
   letter-spacing: -1px;
 }
 
-.span__accent {
+.header__span-accent {
   font-family: "Noto Serif,Times New Roman";
   font-style: italic;
   font-weight: normal;
   font-size: 58px;
   line-height: 72px;
   color: #2f80ed;
+  margin-bottom: 0;
 }
 
 .header__description {
   max-width: 683px;
-  margin-left: 80px;
   margin-top: 28px;
   font-family: "Noto Serif,Time New Roman";
   font-style: normal;
@@ -87,30 +82,55 @@
 .header__image {
   width: 646px;
   height: 568px;
-  margin-top: 124px;
-  margin-right: 5px;
+  top: 124px;
+  right: 5px;
+  position: absolute;
 }
 
 .header__footer {
-  margin-left: 80px;
-  margin-bottom: 40px;
+  margin-top: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 100%;
+}
+
+.header__paragraph {
   font-family: "Inter,Arial";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  display: flex;
-  justify-content: space-between;
+  margin: 0;
 }
 
-.list__footer {
-  list-style-type: none;
+.recipes {
+  background-image: url(file:///C:/Users/Fernando%20Martinez/OneDrive/Desktop/web_project_coffeeshop%20-%20copia/images/background_recipes.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0a2850;
+  height: 100vh;
+  padding: 80px;
+  color: #ffffff;
 }
 
-.paragraph {
-  margin-right: 80px;
-  margin-bottom: 40px;
-  display: flex;
-  align-items: end;
+.recipes__title {
+  max-width: 580px;
+  font-family: "Inter,Arial";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.recipes__subtitle {
+  max-width: 438px;
+  font-family: "Noto Serif,Times New Roman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
