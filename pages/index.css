@@ -47,6 +47,11 @@
   gap: 20px;
 }
 
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+}
+
 .header__title {
   max-width: 709px;
   margin-top: 183px;
@@ -113,8 +118,8 @@
   background-size: cover;
   background-color: #0a2850;
   height: 100vh;
-  padding: 80px;
   color: #ffffff;
+  padding: 100px 80px 215px;
 }
 
 .recipes__title {
@@ -133,4 +138,28 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+}
+
+.video {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.video-item {
+  height: 237px;
+  width: 480px;
+}
+
+.video-caption {
+  font-family: "Inter,Arial";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 24px;
 }
