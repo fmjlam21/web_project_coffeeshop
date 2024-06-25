@@ -140,14 +140,14 @@
   line-height: 30px;
 }
 
-.video {
+.recipes__videos {
   display: flex;
   gap: 40px;
   justify-content: center;
   margin-top: 80px;
 }
 
-.video-item {
+.recipes__iframe {
   height: 237px;
   width: 480px;
 }
