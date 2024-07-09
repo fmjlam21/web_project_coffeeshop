@@ -123,55 +123,68 @@
             </p>
           </div>
         </section>
+
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
-          <form class="reservation__form">
-
-            <fieldset class="form__fieldset form__fieldset-texts" >
-              <label class="form__label" for="name">Nombre *</label>
-                <input
-                  class="form__input form__input-name"
-                  type="text"
-                  name="Nombre"
-                  id="name"
-                  placeholder="Name"
-                  required
-                  />
-              <label class="form__label" for="diners">Número de comensales *</label> 
+          <form class="form form__reservation">
+            <fieldset class="fieldset fieldset__form-text">
+              <label for="name" class="label label__form">Nombre *</label>
               <input
-                  class="form__input form__input-diners"
-                  type="number"
-                  min="1"
-                  max="8"
-                  name="diners"
-                  id="diners"
-                  placeholder="1-8"
-                  required
+                class="input input__form-name"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
               />
-              <label class="form__label" for="datetime">Fecha y hora *</label>
-                <input
-                  class="form__input form__input-datetime"
-                  type="datetime-local"
-                  name="datetime"
-                  id="datetime"
-                  required /></label
-              ><label class="form__label" for="email">Tu correo electrónico *</label>
-                <input
-                  class="form__input form__input-email"
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="email@email.com"
-                  required
+              <label for="diners" class="label label__form"
+                >Número de comensales *</label
+              >
+              <input
+                class="input input__form-diners"
+                type="number"
+                min="1"
+                max="8"
+                name="diners"
+                id="diners"
+                placeholder="1-8"
+                required
+              />
+              <label for="datetime-local" class="label label__form"
+                >Fecha y hora *</label
+              >
+              <input
+                class="input input__form-datetime"
+                type="datetime-local"
+                name="datetime-local"
+                id="datetime-local"
+                required
+              />
+              <label for="email" class="label label__form"
+                >Tu correo electrónico *</label
+              >
+              <input
+                class="input input__form-email"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="email@email.com"
+                required
               />
             </fieldset>
 
-            <fieldset class="form__fieldset form__fieldset-handlers">
-              <button class="form__button" type="submit">Reservar una mesa</button>
-              <label for="terms"><input class="form__input form__input-checkbox" type="checkbox" id="checkbox" required/> <span></span><span>Acepto los términos de uso</span>
-              </label>
-            </fieldset>
-              
+            <button class="button button__form" type="submit">
+              Reservar una mesa
+            </button>
+            <label for="checkbox" class="label label__form"
+              ><input
+                class="input input__form-checkbox"
+                type="checkbox"
+                id="checkbox"
+                required
+              />
+              <span></span><span>Acepto los términos de uso</span>
+            </label>
           </form>
         </section>
       </main>
