@@ -183,12 +183,9 @@
   justify-content: center;
 }
 
-.form {
+.form__reservation {
   margin-top: 80px;
   width: 100vh;
-}
-
-.form__reservation {
   margin-left: 425px;
 }
 
@@ -282,4 +279,8 @@
   height: 20px;
   width: 20px;
   gap: 12px;
+}
+
+.span {
+  display: inline;
 }
