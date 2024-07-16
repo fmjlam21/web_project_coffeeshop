@@ -6,7 +6,6 @@
     <meta name="description" content="Recetas de Café" />
     <meta name="author" content="Fernando Martínez Jiménez" />
     <meta name="keywords" content="café,recetas,Reservar" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="./favicon.ico" />
     <title>Coffe Shop</title>
@@ -173,9 +172,12 @@
             <button class="reservation__button" type="submit">
               Reservar una mesa
             </button>
-            <label for="checkbox" class="reservation__label">
+            <label
+              for="checkbox"
+              class="reservation__label reservation__label_type_checkbox"
+            >
               <input
-                class="form__item"
+                class="form__checkbox"
                 type="checkbox"
                 name="checkbox"
                 id="checkbox"
@@ -186,7 +188,39 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img
+            src="images/logo_coffeeshop_light.svg"
+            class="footer__logo"
+            alt="logo-footer"
+          /><div class="footer__circle"></div>
+        <div class="footer__social">
+        <h3 class="footer__social-heading">Redes Sociales</h2>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="footer__social-link" href="#">
+              <img 
+              src="images/facebook_white.svg"
+              alt="logo-Facebook"
+              class="footer__social-icon"
+              /> Facebook
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__social-link" href="#">
+                <img
+                src="images/instagram_white.svg"
+                alt="logo-instagram"
+                class="footer__social-icon"
+                /> Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; Fernando Martínez Jiménez</p>
+      </footer>
     </div>
   </body>
 </html>

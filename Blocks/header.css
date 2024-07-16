@@ -1,0 +1,103 @@
+.header {
+  background-image: url(file:///C:/Users/Fernando%20Martinez/OneDrive/Desktop/web_project_coffeeshop%20-%20copia/images/background_header.svg);
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 30px 80px 40px;
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-right: 80px;
+  font-family: "Inter,Arial";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.header__title {
+  max-width: 709px;
+  margin-top: 183px;
+  margin-bottom: 0;
+  font-family: "Inter,Arial";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif,Times New Roman";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+  margin-bottom: 0;
+}
+
+.header__description {
+  max-width: 683px;
+  margin-top: 28px;
+  font-family: "Noto Serif,Time New Roman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+  position: absolute;
+}
+
+.header__footer {
+  margin-top: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 100%;
+}
+
+.header__paragraph {
+  font-family: "Inter,Arial";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  margin: 0;
+}

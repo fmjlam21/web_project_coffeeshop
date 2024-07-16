@@ -1,0 +1,90 @@
+.reservation {
+  background-image: url(file:///C:/Users/Fernando%20Martinez/OneDrive/Desktop/web_project_coffeeshop%20-%20copia/images/background_reservation.svg);
+  background-color: #d9e7ff;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 100px 0px 120px;
+}
+
+.reservation__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  max-width: 385px;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.reservation__input-container {
+  max-width: 385px;
+}
+
+.reservation__label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.reservation__label_type_checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+}
+
+.form__item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 32px;
+  height: 60px;
+  width: 100%;
+}
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+.form__item::placeholder {
+  padding-left: 20px;
+  line-height: 15px;
+}
+
+.reservation__button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.reservation__button[type="submit"] {
+  background-color: #2f80ed;
+  color: #ffffff;
+}
