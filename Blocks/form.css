@@ -1,5 +1,6 @@
 form {
   max-width: 385px;
+  background-image: url(../images/check.svg);
 }
 
 .form__item {
